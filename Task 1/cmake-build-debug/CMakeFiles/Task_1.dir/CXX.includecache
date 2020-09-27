@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/OgRob/Desktop/GIT/Task 1/main.cpp
+queue
+C:/Users/OgRob/Desktop/GIT/Task 1/queue
+iostream
+-
+algorithm
+-
+cmath
+-
+iomanip
+-
+vector
+-
+set
+-
+string
+-
+map
+-
+utility
+-
+limits.h
+-
+
