@@ -10,28 +10,27 @@ class Curves {
 protected:
 
   struct point {
-    int x;
-    int y;
+    double x;
+    double y;
   };
 
   enum type {
-    Undefined=0,
-    Circle,
-    Ellipse,
+    undefined=0,
+    circle,
+    ellipse,
   };
 
-private:
+protected:
   double square; // Площадь фигуры
   point center; // Центр фигуры
   point semiaxis; // Полуоси Эллипса
   type figure_type; // Признак фигуры
+  double radius; // Радиус фигуры
 
 public:
   Curves() = default;
   virtual ~Curves();
   virtual double Square() const;
-
-
 
 };
 
