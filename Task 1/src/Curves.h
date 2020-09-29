@@ -1,27 +1,30 @@
 //
 // Created by OgRob on 27.09.2020.
 //
-#include <math.h>
+
 #ifndef TASK_1_CURVES_H
 #define TASK_1_CURVES_H
+enum type {
+  undefined=0,
+  circle,
+  ellipse,
+};
+const double pi = 3.141592653589;
 
 class Curves {
-
 protected:
-
   struct point {
     double x;
     double y;
   };
-
+/*
   enum type {
     undefined=0,
     circle,
     ellipse,
   };
-
+*/
 protected:
-  double square; // Площадь фигуры
   point center; // Центр фигуры
   point semiaxis; // Полуоси Эллипса
   type figure_type; // Признак фигуры
@@ -29,8 +32,11 @@ protected:
 
 public:
   Curves() = default;
-  virtual ~Curves();
-  virtual double Square() const;
+  virtual ~Curves() {};
+  virtual double Square() const {};
+  type Getfigure_type() const {
+      return figure_type;
+  }
 
 };
 

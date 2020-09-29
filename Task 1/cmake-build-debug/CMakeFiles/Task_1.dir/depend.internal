@@ -3,3 +3,24 @@
 
 CMakeFiles/Task_1.dir/main.cpp.obj
  C:/Users/OgRob/Desktop/GIT/Task 1/main.cpp
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.h
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.h
+CMakeFiles/Task_1.dir/src/Circle.cpp.obj
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.cpp
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.h
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+CMakeFiles/Task_1.dir/src/Curves.cpp.obj
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.cpp
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+CMakeFiles/Task_1.dir/src/Curves_Container.cpp.obj
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.h
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.cpp
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.h
+CMakeFiles/Task_1.dir/src/Ellipse.cpp.obj
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.cpp
+ C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.h

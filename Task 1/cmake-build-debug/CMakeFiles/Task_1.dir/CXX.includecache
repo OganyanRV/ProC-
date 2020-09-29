@@ -9,24 +9,64 @@
 C:/Users/OgRob/Desktop/GIT/Task 1/main.cpp
 queue
 C:/Users/OgRob/Desktop/GIT/Task 1/queue
-iostream
--
+src/Curves_Container.h
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h
 algorithm
 -
 cmath
 -
 iomanip
 -
-vector
+iostream
+-
+limits.h
+-
+map
 -
 set
 -
 string
 -
-map
--
 utility
 -
-limits.h
+vector
+-
+
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.h
+Curves.h
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+stdexcept
+-
+
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.cpp
+Curves_Container.h
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h
+
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h
+Curves.h
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+Circle.h
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.h
+Ellipse.h
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.h
+vector
+C:/Users/OgRob/Desktop/GIT/Task 1/src/vector
+exception
+-
+memory
+-
+random
+-
+algorithm
+-
+iostream
+-
+
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.h
+Curves.h
+C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+stdexcept
 -
 

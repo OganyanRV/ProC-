@@ -1,44 +1,29 @@
 #include "queue"
-#include <iostream>
+#include "src/Curves_Container.h"
 #include <algorithm>
 #include <cmath>
 #include <iomanip>
-#include <vector>
+#include <iostream>
+#include <limits.h>
+#include <map>
 #include <set>
 #include <string>
-#include <map>
 #include <utility>
-#include <limits.h>
-//#define int long long
+#include <vector>
 
-#define endl "\n"
-#define forll(n) for(long long i = 0; i < (n); i++)
-#define forllr(n) for(long long i = (n); i >= 0; i--)
-#define forll2(m) for(long long j = 0; j < (m); j++)
-#define fori(n) for(int i = 0; i < (n); i++)
-#define vi vector<int>
-#define vll vector<long long>
-#define pb push_back
-#define ou(x) cout<<x<<endl;
-//#define in(x) cin>>x
+int main() {
+  std::cout<<"Enter size of the container:"<<"\n";
+  int size=0;
+  do {
+    std::cin>>size;
+  } while (size<=0);
+  std::cout<<"\n";
+  Curves_Container cur_container;
+  cur_container.RandomFill(size);
+  cur_container.Print_container();
+  cur_container.Sort();
+  cur_container.Print_container();
 
-using namespace std;
-void fastOutput() {
-  cin.tie(0);
-  cout.tie(0);
-  ios::sync_with_stdio(0);
-}
-
-
-void solve() {
-
-}
-
-signed main() {
-  fastOutput();
-  int t=1;
-  cin>>t;
-  while(t--) {
-    solve();
-  }
+  //auto ellipse_area = cur_container.CalculateArea(0);
+  return 0;
 }

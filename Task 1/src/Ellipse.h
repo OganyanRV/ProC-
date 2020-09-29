@@ -1,8 +1,6 @@
 //
 // Created by OgRob on 27.09.2020.
 //
-
-const double Pi = 3.141592653589;
 #include "Curves.h"
 #include <stdexcept>
 
@@ -10,6 +8,7 @@ const double Pi = 3.141592653589;
 #define TASK_1_ELLIPSE_H
 
 class Ellipse : public Curves {
+public:
   Ellipse(double center_x = 0.0, double center_y = 0.0, double semiaxis_x = 1.0, double semiaxis_y = 1.0) {
     if (semiaxis_x < 0 || semiaxis_y <0 ) {
       throw std::runtime_error("Semiaxis are incorrect");
@@ -21,8 +20,10 @@ class Ellipse : public Curves {
     figure_type = ellipse;
   };
 
+  ~Ellipse() override {};
+
   double Square() const override {
-    return Pi * semiaxis.x * semiaxis.y;
+    return pi * semiaxis.x * semiaxis.y;
   };
 };
 

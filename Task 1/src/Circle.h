@@ -1,7 +1,7 @@
 //
 // Created by OgRob on 27.09.2020.
 //
-const double Pi = 3.141592653589;
+
 #include "Curves.h"
 #include <stdexcept>
 #ifndef TASK_1_CIRCLE_H
@@ -19,8 +19,10 @@ public:
     figure_type = circle;
   };
 
+  ~Circle() override {};
+
   double Square() const override {
-    return Pi * radius * radius;
+    return pi * radius * radius;
   };
 };
 
