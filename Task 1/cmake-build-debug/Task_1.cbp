@@ -80,31 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/include/Circle.h">
+			<Option target="Task_1"/>
+		</Unit>
+		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves.h">
+			<Option target="Task_1"/>
+		</Unit>
+		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves_Container.h">
+			<Option target="Task_1"/>
+		</Unit>
+		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/include/Ellipse.h">
+			<Option target="Task_1"/>
+		</Unit>
 		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/main.cpp">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.cpp">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.h">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.cpp">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.cpp">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.cpp">
-			<Option target="Task_1"/>
-		</Unit>
-		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.h">
 			<Option target="Task_1"/>
 		</Unit>
 		<Unit filename="C:/Users/OgRob/Desktop/GIT/Task 1/CMakeLists.txt">

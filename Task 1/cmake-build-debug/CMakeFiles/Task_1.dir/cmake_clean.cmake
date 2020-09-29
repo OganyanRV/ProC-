@@ -1,9 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Task_1.dir/main.cpp.obj"
-  "CMakeFiles/Task_1.dir/src/Circle.cpp.obj"
-  "CMakeFiles/Task_1.dir/src/Curves.cpp.obj"
-  "CMakeFiles/Task_1.dir/src/Curves_Container.cpp.obj"
-  "CMakeFiles/Task_1.dir/src/Ellipse.cpp.obj"
   "Task_1.exe"
   "Task_1.exe.manifest"
   "Task_1.pdb"

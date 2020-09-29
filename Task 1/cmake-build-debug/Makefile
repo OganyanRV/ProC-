@@ -149,114 +149,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Circle.obj: src/Circle.cpp.obj
-
-.PHONY : src/Circle.obj
-
-# target to build an object file
-src/Circle.cpp.obj:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Circle.cpp.obj
-.PHONY : src/Circle.cpp.obj
-
-src/Circle.i: src/Circle.cpp.i
-
-.PHONY : src/Circle.i
-
-# target to preprocess a source file
-src/Circle.cpp.i:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Circle.cpp.i
-.PHONY : src/Circle.cpp.i
-
-src/Circle.s: src/Circle.cpp.s
-
-.PHONY : src/Circle.s
-
-# target to generate assembly for a file
-src/Circle.cpp.s:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Circle.cpp.s
-.PHONY : src/Circle.cpp.s
-
-src/Curves.obj: src/Curves.cpp.obj
-
-.PHONY : src/Curves.obj
-
-# target to build an object file
-src/Curves.cpp.obj:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Curves.cpp.obj
-.PHONY : src/Curves.cpp.obj
-
-src/Curves.i: src/Curves.cpp.i
-
-.PHONY : src/Curves.i
-
-# target to preprocess a source file
-src/Curves.cpp.i:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Curves.cpp.i
-.PHONY : src/Curves.cpp.i
-
-src/Curves.s: src/Curves.cpp.s
-
-.PHONY : src/Curves.s
-
-# target to generate assembly for a file
-src/Curves.cpp.s:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Curves.cpp.s
-.PHONY : src/Curves.cpp.s
-
-src/Curves_Container.obj: src/Curves_Container.cpp.obj
-
-.PHONY : src/Curves_Container.obj
-
-# target to build an object file
-src/Curves_Container.cpp.obj:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Curves_Container.cpp.obj
-.PHONY : src/Curves_Container.cpp.obj
-
-src/Curves_Container.i: src/Curves_Container.cpp.i
-
-.PHONY : src/Curves_Container.i
-
-# target to preprocess a source file
-src/Curves_Container.cpp.i:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Curves_Container.cpp.i
-.PHONY : src/Curves_Container.cpp.i
-
-src/Curves_Container.s: src/Curves_Container.cpp.s
-
-.PHONY : src/Curves_Container.s
-
-# target to generate assembly for a file
-src/Curves_Container.cpp.s:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Curves_Container.cpp.s
-.PHONY : src/Curves_Container.cpp.s
-
-src/Ellipse.obj: src/Ellipse.cpp.obj
-
-.PHONY : src/Ellipse.obj
-
-# target to build an object file
-src/Ellipse.cpp.obj:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Ellipse.cpp.obj
-.PHONY : src/Ellipse.cpp.obj
-
-src/Ellipse.i: src/Ellipse.cpp.i
-
-.PHONY : src/Ellipse.i
-
-# target to preprocess a source file
-src/Ellipse.cpp.i:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Ellipse.cpp.i
-.PHONY : src/Ellipse.cpp.i
-
-src/Ellipse.s: src/Ellipse.cpp.s
-
-.PHONY : src/Ellipse.s
-
-# target to generate assembly for a file
-src/Ellipse.cpp.s:
-	$(MAKE) -f CMakeFiles\Task_1.dir\build.make CMakeFiles/Task_1.dir/src/Ellipse.cpp.s
-.PHONY : src/Ellipse.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -269,18 +161,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/Circle.obj
-	@echo ... src/Circle.i
-	@echo ... src/Circle.s
-	@echo ... src/Curves.obj
-	@echo ... src/Curves.i
-	@echo ... src/Curves.s
-	@echo ... src/Curves_Container.obj
-	@echo ... src/Curves_Container.i
-	@echo ... src/Curves_Container.s
-	@echo ... src/Ellipse.obj
-	@echo ... src/Ellipse.i
-	@echo ... src/Ellipse.s
 .PHONY : help
 
 

@@ -69,79 +69,19 @@ CMakeFiles/Task_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_1.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\OgRob\Desktop\GIT\Task 1\main.cpp" -o CMakeFiles\Task_1.dir\main.cpp.s
 
-CMakeFiles/Task_1.dir/src/Curves.cpp.obj: CMakeFiles/Task_1.dir/flags.make
-CMakeFiles/Task_1.dir/src/Curves.cpp.obj: ../src/Curves.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\OgRob\Desktop\GIT\Task 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Task_1.dir/src/Curves.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task_1.dir\src\Curves.cpp.obj -c "C:\Users\OgRob\Desktop\GIT\Task 1\src\Curves.cpp"
-
-CMakeFiles/Task_1.dir/src/Curves.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_1.dir/src/Curves.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\OgRob\Desktop\GIT\Task 1\src\Curves.cpp" > CMakeFiles\Task_1.dir\src\Curves.cpp.i
-
-CMakeFiles/Task_1.dir/src/Curves.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_1.dir/src/Curves.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\OgRob\Desktop\GIT\Task 1\src\Curves.cpp" -o CMakeFiles\Task_1.dir\src\Curves.cpp.s
-
-CMakeFiles/Task_1.dir/src/Circle.cpp.obj: CMakeFiles/Task_1.dir/flags.make
-CMakeFiles/Task_1.dir/src/Circle.cpp.obj: ../src/Circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\OgRob\Desktop\GIT\Task 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Task_1.dir/src/Circle.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task_1.dir\src\Circle.cpp.obj -c "C:\Users\OgRob\Desktop\GIT\Task 1\src\Circle.cpp"
-
-CMakeFiles/Task_1.dir/src/Circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_1.dir/src/Circle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\OgRob\Desktop\GIT\Task 1\src\Circle.cpp" > CMakeFiles\Task_1.dir\src\Circle.cpp.i
-
-CMakeFiles/Task_1.dir/src/Circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_1.dir/src/Circle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\OgRob\Desktop\GIT\Task 1\src\Circle.cpp" -o CMakeFiles\Task_1.dir\src\Circle.cpp.s
-
-CMakeFiles/Task_1.dir/src/Ellipse.cpp.obj: CMakeFiles/Task_1.dir/flags.make
-CMakeFiles/Task_1.dir/src/Ellipse.cpp.obj: ../src/Ellipse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\OgRob\Desktop\GIT\Task 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Task_1.dir/src/Ellipse.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task_1.dir\src\Ellipse.cpp.obj -c "C:\Users\OgRob\Desktop\GIT\Task 1\src\Ellipse.cpp"
-
-CMakeFiles/Task_1.dir/src/Ellipse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_1.dir/src/Ellipse.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\OgRob\Desktop\GIT\Task 1\src\Ellipse.cpp" > CMakeFiles\Task_1.dir\src\Ellipse.cpp.i
-
-CMakeFiles/Task_1.dir/src/Ellipse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_1.dir/src/Ellipse.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\OgRob\Desktop\GIT\Task 1\src\Ellipse.cpp" -o CMakeFiles\Task_1.dir\src\Ellipse.cpp.s
-
-CMakeFiles/Task_1.dir/src/Curves_Container.cpp.obj: CMakeFiles/Task_1.dir/flags.make
-CMakeFiles/Task_1.dir/src/Curves_Container.cpp.obj: ../src/Curves_Container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\OgRob\Desktop\GIT\Task 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Task_1.dir/src/Curves_Container.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Task_1.dir\src\Curves_Container.cpp.obj -c "C:\Users\OgRob\Desktop\GIT\Task 1\src\Curves_Container.cpp"
-
-CMakeFiles/Task_1.dir/src/Curves_Container.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_1.dir/src/Curves_Container.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\OgRob\Desktop\GIT\Task 1\src\Curves_Container.cpp" > CMakeFiles\Task_1.dir\src\Curves_Container.cpp.i
-
-CMakeFiles/Task_1.dir/src/Curves_Container.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_1.dir/src/Curves_Container.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\OgRob\Desktop\GIT\Task 1\src\Curves_Container.cpp" -o CMakeFiles\Task_1.dir\src\Curves_Container.cpp.s
-
 # Object files for target Task_1
 Task_1_OBJECTS = \
-"CMakeFiles/Task_1.dir/main.cpp.obj" \
-"CMakeFiles/Task_1.dir/src/Curves.cpp.obj" \
-"CMakeFiles/Task_1.dir/src/Circle.cpp.obj" \
-"CMakeFiles/Task_1.dir/src/Ellipse.cpp.obj" \
-"CMakeFiles/Task_1.dir/src/Curves_Container.cpp.obj"
+"CMakeFiles/Task_1.dir/main.cpp.obj"
 
 # External object files for target Task_1
 Task_1_EXTERNAL_OBJECTS =
 
 Task_1.exe: CMakeFiles/Task_1.dir/main.cpp.obj
-Task_1.exe: CMakeFiles/Task_1.dir/src/Curves.cpp.obj
-Task_1.exe: CMakeFiles/Task_1.dir/src/Circle.cpp.obj
-Task_1.exe: CMakeFiles/Task_1.dir/src/Ellipse.cpp.obj
-Task_1.exe: CMakeFiles/Task_1.dir/src/Curves_Container.cpp.obj
 Task_1.exe: CMakeFiles/Task_1.dir/build.make
 Task_1.exe: CMakeFiles/Task_1.dir/linklibs.rsp
 Task_1.exe: CMakeFiles/Task_1.dir/objects1.rsp
 Task_1.exe: CMakeFiles/Task_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\OgRob\Desktop\GIT\Task 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Task_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\OgRob\Desktop\GIT\Task 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Task_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,7 +8,9 @@
 #define TASK_1_ELLIPSE_H
 
 class Ellipse : public Curves {
+
 public:
+
   Ellipse(double center_x = 0.0, double center_y = 0.0, double semiaxis_x = 1.0, double semiaxis_y = 1.0) {
     if (semiaxis_x < 0 || semiaxis_y <0 ) {
       throw std::runtime_error("Semiaxis are incorrect");
@@ -20,11 +22,12 @@ public:
     figure_type = ellipse;
   };
 
-  ~Ellipse() override {};
+  ~Ellipse() override = default;
 
   double Square() const override {
     return pi * semiaxis.x * semiaxis.y;
   };
+
 };
 
 #endif // TASK_1_ELLIPSE_H

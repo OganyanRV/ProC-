@@ -8,9 +8,11 @@
 #define TASK_1_CIRCLE_H
 
 class Circle : public Curves {
+
 public:
+
   Circle(double center_x = 0.0, double center_y = 0.0, double radius_ = 0.0) {
-    if (radius_ < 0 ) {
+    if (radius_ < 0) {
       throw std::runtime_error("Radius is incorrect");
     }
     center.x = center_x;
@@ -19,11 +21,12 @@ public:
     figure_type = circle;
   };
 
-  ~Circle() override {};
+  ~Circle() override = default;
 
   double Square() const override {
     return pi * radius * radius;
   };
+
 };
 
 #endif // TASK_1_CIRCLE_H

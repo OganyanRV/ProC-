@@ -15,19 +15,15 @@
 #define TASK_1_CURVES_CONTAINER_H
 
 class Curves_Container {
-protected:
-  /*
-    enum type {
-        undefined=0,
-        circle,
-        ellipse,
-    };
-    */
+
 private:
+
   std::vector<std::shared_ptr<Curves>> container;
 
-  class Random {
+  class Random { // Класс для генерации случайных double от 0.0 до 100.0
+
   public:
+
     static double Next(double left_border, double right_border) {
       static Random rand = Random(left_border, right_border);
       return rand.dist_(rand.gen_);
@@ -46,17 +42,17 @@ private:
   };
 
 public:
+
     Curves_Container() = default;
 
     Curves_Container(size_t size) {
         container.resize(size);
     }
 
-  std::shared_ptr<Curves> RandomGenerate() {
-
+  std::shared_ptr<Curves> RandomGenerate() { // Случайный объект
     double center_x = Random::Next (0.0, 100.0);
     double center_y = Random::Next (0.0, 100.0);
-    if ( Random::Next(1.0,2.0) <50.0) {
+    if (Random::Next(1.0,2.0) < 50.0) {
       double radius = Random::Next(1.0, 100.0);
       Circle object(center_x, center_y, radius);
       return std::make_shared<Circle>(object);
@@ -69,41 +65,35 @@ public:
     }
   };
 
-  void RandomFill(std::size_t size) {
+  void RandomFill(std::size_t size) { // Заполнение контейнера случайными объектами
     for (std::size_t i=0; i<size; ++i) {
       container.push_back(RandomGenerate());
     }
   }
 
-  double CalculateArea(int object_type = 2) const {
+  double CalculateArea(type object_type = undefined) const { // Подсчет площади по признаку object_type
     double area = 0.0;
-    if (object_type == 0) {
-      for (std::size_t i; i < container.size(); ++i) {
-        if (container[i]->Getfigure_type() == ellipse) {
+    for (std::size_t i=0; i < container.size(); ++i) {
+        if (object_type == undefined) {
+            area+=container[i]->Square();
+            continue;
+        }
+        if (container[i]->Getfigure_type() == object_type) {
           area += container[i]->Square();
         }
-      }
-    } else if (object_type == 1) {
-      for (std::size_t i; i < container.size(); ++i) {
-        if (container[i]->Getfigure_type() == circle) {
-          area += container[i]->Square();
-        }
-      }
-    } else {
-      for (std::size_t i; i < container.size(); ++i) {
-        area += container[i]->Square();
-      }
     }
     return area;
   }
-  static bool Comparator(std::shared_ptr<Curves> left, std::shared_ptr<Curves> right) {
+
+  static bool Comparator(std::shared_ptr<Curves> left, std::shared_ptr<Curves> right) { // Вспомогательная функция для сортировки
       return left->Square() < right->Square();
   }
-  void Sort() {
+
+  void Sort() { // Сортировка с помощью встроенной функции sort и вспомогательной реализованной Comparator
         std::sort(container.begin(), container.end(), Comparator);
   }
 
-  void Print_container() {
+  void Print_container() { // Вывод контейнера для наглядности
       for (std::size_t i = 0; i < container.size(); ++i) {
           std::string info;
           if (container[i]->Getfigure_type() == ellipse) info = "Ellipse";

@@ -6,53 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/OgRob/Desktop/GIT/Task 1/main.cpp
-queue
-C:/Users/OgRob/Desktop/GIT/Task 1/queue
-src/Curves_Container.h
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h
-algorithm
--
-cmath
--
-iomanip
--
-iostream
--
-limits.h
--
-map
--
-set
--
-string
--
-utility
--
-vector
--
-
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Circle.h
 Curves.h
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves.h
 stdexcept
 -
 
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves.h
 
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.cpp
-Curves_Container.h
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h
-
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves_Container.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves_Container.h
 Curves.h
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves.h
 Circle.h
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Circle.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Circle.h
 Ellipse.h
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Ellipse.h
 vector
-C:/Users/OgRob/Desktop/GIT/Task 1/src/vector
+C:/Users/OgRob/Desktop/GIT/Task 1/include/vector
 exception
 -
 memory
@@ -64,9 +34,17 @@ algorithm
 iostream
 -
 
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Ellipse.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Ellipse.h
 Curves.h
-C:/Users/OgRob/Desktop/GIT/Task 1/src/Curves.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves.h
 stdexcept
+-
+
+C:/Users/OgRob/Desktop/GIT/Task 1/main.cpp
+queue
+C:/Users/OgRob/Desktop/GIT/Task 1/queue
+include/Curves_Container.h
+C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves_Container.h
+iostream
 -
 

@@ -12,31 +12,29 @@ enum type {
 const double pi = 3.141592653589;
 
 class Curves {
-protected:
+
+private:
+
   struct point {
     double x;
     double y;
   };
-/*
-  enum type {
-    undefined=0,
-    circle,
-    ellipse,
-  };
-*/
+
 protected:
+
   point center; // Центр фигуры
   point semiaxis; // Полуоси Эллипса
   type figure_type; // Признак фигуры
   double radius; // Радиус фигуры
 
 public:
+
   Curves() = default;
-  virtual ~Curves() {};
-  virtual double Square() const {};
+  virtual ~Curves() = default;
+  virtual double Square() const = 0;
   type Getfigure_type() const {
       return figure_type;
-  }
+  };
 
 };
 
