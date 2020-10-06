@@ -9,10 +9,10 @@
 C:/Users/OgRob/Desktop/GIT/Task 1/include/Circle.h
 Curves.h
 C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves.h
-stdexcept
--
 
 C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves.h
+stdexcept
+-
 
 C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves_Container.h
 Curves.h
@@ -37,8 +37,6 @@ iostream
 C:/Users/OgRob/Desktop/GIT/Task 1/include/Ellipse.h
 Curves.h
 C:/Users/OgRob/Desktop/GIT/Task 1/include/Curves.h
-stdexcept
--
 
 C:/Users/OgRob/Desktop/GIT/Task 1/main.cpp
 include/Curves_Container.h

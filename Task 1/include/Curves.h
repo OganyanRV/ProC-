@@ -1,6 +1,7 @@
 //
 // Created by OgRob on 27.09.2020.
 //
+#include <stdexcept>
 
 #ifndef TASK_1_CURVES_H
 #define TASK_1_CURVES_H

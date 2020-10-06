@@ -2,7 +2,6 @@
 // Created by OgRob on 27.09.2020.
 //
 #include "Curves.h"
-#include <stdexcept>
 
 #ifndef TASK_1_ELLIPSE_H
 #define TASK_1_ELLIPSE_H
