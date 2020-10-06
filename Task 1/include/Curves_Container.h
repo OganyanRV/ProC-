@@ -24,17 +24,17 @@ private:
 
   public:
 
-    static double Next(double left_border, double right_border) {
-      static Random rand = Random(left_border, right_border);
+    static double Next() {
+      static Random rand = Random();
       return rand.dist_(rand.gen_);
     }
 
   private:
 
-     Random(double left_border, double right_border) {
+     Random() {
       std::random_device device;
       gen_ = std::mt19937(device());
-      dist_ = std::uniform_real_distribution<>(left_border, right_border);
+      dist_ = std::uniform_real_distribution<>(0.0, 100.0);
     }
 
     std::mt19937 gen_;
@@ -46,20 +46,21 @@ public:
     Curves_Container() = default;
 
     Curves_Container(size_t size) {
+        container.clear();
         container.resize(size);
     }
 
   std::shared_ptr<Curves> RandomGenerate() { // Случайный объект
-    double center_x = Random::Next (0.0, 100.0);
-    double center_y = Random::Next (0.0, 100.0);
-    if (Random::Next(1.0,2.0) < 50.0) {
-      double radius = Random::Next(1.0, 100.0);
+    double center_x = Random::Next ();
+    double center_y = Random::Next ();
+    if (Random::Next() < 50.0) {
+      double radius = Random::Next();
       Circle object(center_x, center_y, radius);
       return std::make_shared<Circle>(object);
     }
     else {
-      double semiaxis_x = Random::Next(1.0, 100.0);
-      double semiaxis_y = Random::Next(1.0, 100.0);
+      double semiaxis_x = Random::Next();
+      double semiaxis_y = Random::Next();
       Ellipse object(center_x, center_y, semiaxis_x, semiaxis_y);
       return std::make_shared<Ellipse>(object);
     }
@@ -85,7 +86,7 @@ public:
     return area;
   }
 
-  static bool Comparator(std::shared_ptr<Curves> left, std::shared_ptr<Curves> right) { // Вспомогательная функция для сортировки
+  static bool Comparator(std::shared_ptr<Curves>& left, std::shared_ptr<Curves>& right) { // Вспомогательная функция для сортировки
       return left->Square() < right->Square();
   }
 

@@ -3,11 +3,15 @@
 //
 
 #include "Curves.h"
-#include <stdexcept>
+
 #ifndef TASK_1_CIRCLE_H
 #define TASK_1_CIRCLE_H
 
 class Circle : public Curves {
+
+private:
+
+    double radius; // Радиус фигуры
 
 public:
 

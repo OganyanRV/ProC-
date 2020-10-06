@@ -9,23 +9,19 @@ enum type {
   circle,
   ellipse,
 };
+
+struct point {
+    double x;
+    double y;
+};
 const double pi = 3.141592653589;
 
 class Curves {
 
-private:
-
-  struct point {
-    double x;
-    double y;
-  };
-
 protected:
 
   point center; // Центр фигуры
-  point semiaxis; // Полуоси Эллипса
   type figure_type; // Признак фигуры
-  double radius; // Радиус фигуры
 
 public:
 

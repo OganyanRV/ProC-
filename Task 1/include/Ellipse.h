@@ -9,6 +9,10 @@
 
 class Ellipse : public Curves {
 
+private:
+
+    point semiaxis; // Полуоси Эллипса
+
 public:
 
   Ellipse(double center_x = 0.0, double center_y = 0.0, double semiaxis_x = 1.0, double semiaxis_y = 1.0) {

@@ -1,4 +1,3 @@
-#include "queue"
 #include "include/Curves_Container.h"
 #include <iostream>
 
